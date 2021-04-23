@@ -3,9 +3,7 @@ title: Home
 layout: default
 ---
 
-# Bootstrap Workshop Template!
-
-{% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
+{% include figure.html img="DDS logo.jpg" alt="intro image here" caption="" width="75%" %}
 
 A minimal Jekyll theme with Bootstrap for creating workshop websites.
 
