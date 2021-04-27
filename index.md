@@ -5,7 +5,7 @@ layout: default
 
 {% include figure.html img="DDS logo.jpg" alt="intro image here" caption="" width="75%" %}
 
-A minimal Jekyll theme with Bootstrap for creating workshop websites.
+Welcome to the UI Data and Digital Services workflow repository, where you'll find information relating to digitization and other tasks.
 
 *Add your workshop abstract here!*
 
