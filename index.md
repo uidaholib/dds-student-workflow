@@ -5,15 +5,14 @@ layout: default
 
 {% include figure.html img="DDS logo.jpg" alt="intro image here" caption="" width="75%" %}
 
-Welcome to the UI Data and Digital Services workflow repository, where you'll find information relating to digitization and other tasks.
+Welcome to the UI Data and Digital Services workflow repository, where you'll find information relating to digitization, metadata, and other tasks.
 
-*Add your workshop abstract here!*
-
-Learn how to create a super quick easy website for a workshop by writing a few markdown files! 
-Host it for free on GitHub with gh-pages, and share!
-Fun!
-
-*See also:* [workshop-template](https://evanwill.github.io/workshop-template/), original minimal version.
+{% capture text %}
+- Progress form
+- File naming
+- Optional: have [Git](https://git-scm.com/), [Jekyll](https://jekyllrb.com/), and a nice [text editor](https://code.visualstudio.com/) installed.
+{% endcapture %}
+{% include card.html text=text header="Quick Links:" %}
 
 {% include toc.html %}
 
