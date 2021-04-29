@@ -1,6 +1,6 @@
 ---
-title: Metadata
-nav: Metadata
+title: Processing Scans
+nav: Processing
 topics:
 ---
 
