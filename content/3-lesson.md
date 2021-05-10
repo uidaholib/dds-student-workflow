@@ -8,7 +8,7 @@ topics:
 
 ## How do we describe things?
 
-In the CDIL, we use the simple [Dublin Core Metadata Pratices](https://en.wikipedia.org/wiki/Dublin_Core), which provide us a standard for how we format our descriptions and make the information readable for a large audience. This section will cover the details of the different formats and guidelines for all common sections of a metadata sheet that technicians will encounter. 
+In the CDIL, we use the simple [Dublin Core Metadata Practices](https://en.wikipedia.org/wiki/Dublin_Core), which provide us a standard for how we format our descriptions and make the information readable for a large audience. This section will cover the details of the different formats and guidelines for all common sections of a metadata sheet that technicians will encounter. 
 
 Not all of the fields listed below will appear on every metadata sheet. Some metadata sheets will have extra fields depending on the subject material. As a general rule, though, these are the most common fields you will encounter when entering metadata. It may seem like a lot of information, but each field serves a purpose for both preservation and access.
 
@@ -43,7 +43,7 @@ Not all of the fields listed below will appear on every metadata sheet. Some met
     - Spatial coverage identifies the geographic and/or geospatial location of the item being described. If it is a photograph, list the location that is depicted; if it is an article or other textual material, list the location described. Locations should always be listed: Country—State—County—City—Identifier.
 
 - ##### **latitude/longitude:**
-    - Geospatial coordinates on the surface of the Earth. To find these coordinates, please use [Google Maps](www.maps.google.com) or [iTouchMap](itouchmap.com/latlong.html). Copy/paste the coordinates from either of these sites into the field in the metadata sheet. If Excel tries to reformat it to only 2 or 3 decimal places, right-click on the Letter at the top of the column and select format. In the window that pops up, select number, and increase decimal places to 6. Sometimes this field is split into separate entries; other times it will be a combined entry.
+    - Geospatial coordinates on the surface of the Earth. To find these coordinates, use [Google Maps](www.maps.google.com) or [iTouchMap](itouchmap.com/latlong.html). Copy/paste the coordinates from either of these sites into the field in the metadata sheet. If Excel tries to reformat it to only 2 or 3 decimal places, right-click on the Letter at the top of the column and select format. In the window that pops up, select number, and increase decimal places to 6. Sometimes this field is split into separate entries; other times it will be a combined entry.
 
 - ##### **digital collection:** 
     - This field contains the name of the digital collection to which all of the material you are working with belongs. It lets patrons, researchers, and those viewing the item know where they can find more materials related to this item in case they found it by searching for a subject, or through another linked entry. This also provides a connection with the physical material and helps individuals to know where it is located. The collection name will usually be completed by the Digital Projects Manager.
