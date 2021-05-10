@@ -10,14 +10,16 @@ Make sure that hands are clean and dry when handling materials for scanning or a
 {% include alert.html text=text color="danger" %}
 
 1. [Why?](#why)
-2. File naming
-3. Scanning images
+2. [File naming](#file)
+3. [Scanning images](#images)
+4. [Scanning documents](#documents)
 
 {:#why}
 ## Why do we scan?
 
 Digitizing materials by scanning them with a flatbed, large format, or feed scanner is sometimes the safest and most effective means of preserving the information in an item and allowing others to access it. Scanning items at a high resolution allows the item to be used in different ways without needing to make any manipulations to the actual item. This is why we aim for a minimum 600 dpi image; it provides a scalable image that can be used for large or small reprints while maintaining the original details of the item.
 
+{:#file}
 ## File Naming
 
 A standardized file naming system helps us know exactly where an item came from or where it belongs just by looking at the file name. Scanned files should be named using the following standardized naming rules:
@@ -28,6 +30,7 @@ Examples:
 - Manuscript Group 190, Box 4, Folder 2, letter 1, multiple pages = **mg190_b4_f2-001p001, mg190_b4_f2-001p002, etc.**
 - Photograph Group 3, box 1, photograph 3 = **pg3_b1-003**
 
+{:#images}
 ## Scanning Images
 
 1. Turn on scanner at station. Open EpsonScan scanning software. 
@@ -50,6 +53,7 @@ Example image
 
 7. Press “OK” and the scan will begin. 
 
+{:#documents}
 ## Scanning Documents
 
 1. All documents should be scanned at 400 dpi with the color filter set to “none”. 
