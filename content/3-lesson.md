@@ -16,25 +16,27 @@ Not all of the fields listed below will appear on every metadata sheet. Some met
 
 - ##### **title:** 
     - either the given title of an article or item, unique to that one item. For photographs in a series, this can be either “Founder’s Day parade [01]” (no quotation marks in entry) or a generalized brief description of the photograph. All words after the first word in the title should be lower case unless referring to a proper noun such as a name or place (Dylan Fuller, Empire State Building, Idaho, etc.)
-    - Example value: `Hecla Mine`
+    - Example values: `Hecla Mine`; `Students playing baseball`
 
 - ##### **description:** 
     - a detailed accounting of the item. This includes small details such as “mountains can be seen in the background”, and should include names when known and list if either person or place is unknown in the material. All descriptions should be in complete sentences and single spaced between sentences.
+    - Example value: `Students on lawn in front of old Gault Hall, which was torn down in 2003 to make room for the current Living Learning Center.`
 
 - ##### **creator:** 
     - This is the individual or company that created the item. For articles or publications, this is the author. For photographs, either the photographer or the studio. Last name, first name “nickname” middle name maiden name, birthdate-death date if known. This is considered an enhancer for the material, and can be linked to records already available on the internet. This increases the usability and accessibility of our collections to a much broader audience.
+    - Example values: `Riegger, Hal`; `Barnard Studio (Wallace, Idaho)`
 
 - ##### **date:** 
-    - refers to the date the item was created/published. This field is required and CANNOT BE LEFT BLANK. This entry is represented in YYYY-MM-DD format officially. Other acceptable formats include:
-        - YYYY when no other information is provided
-        - YYYY-MM when no day is provided
-        - YYYY/YYYY for a range where the event is continuously occurring
+    - Refers to the date the item was created/published. If you know the exact date for an item, fill it in using the yyyy-mm-dd format (ex. 1955-12-25). If you only know the year and month, simply leave off the day: 1955-12. Likewise, if you only know the year, just enter the year (1955). 
+    - If there is no year included with the item, you can estimate the date to the nearest decade if you know enough information about the content of the image or item. For example, if you think a photo was probably taken in the 1950s based on a car or clothing pictured, you can put '1950' or '1955' in the data cell. Be sure to fill in 'yes' for the 'date is approximate' cell in this situation.
+    - Example values: `1955-12-08`; `1955-12`; `1955`
 
 - ##### **date is approximate:** 
-    - This field lets anyone looking at the collection know that we are certain of our estimation, not that our estimation is the accurate date. Only fill out yes if the Year, Year-Month, or an actual estimation is provided. If date is accurate, leave blank.
+    - This field lets anyone looking at the collection know that we are certain of our estimation, not that our estimation is the accurate date. Only fill out 'yes' if the Year, Year-Month, or an actual estimation is provided. If date is accurate, leave blank.
 
-- ##### **keywords:** 
-    - words or phrases that describe or relate to the material. Think of keywords as how you the technician would search for the item. Another way to think of keywords is in terms of subjects. What subjects are described/depicted? These allow researchers and people interested in looking for one thing in particular to narrow the collections down to their interests. We use the Getty Art and Architecture Thesaurus for our keywords, which can be found bookmarked in Google Chrome on all of the computers in the lab. Multiple entries are encouraged when possible, and should be separated with a semi-colon. [Example: cows (mammals); farming (function)]. Some collections have a controlled vocabulary related to the subject material.
+- ##### **subject:** 
+    - words or phrases that describe or relate to the material. Think of subjects as how you the technician would search for the item. What subjects are described/depicted? These allow researchers and people interested in looking for one thing in particular to narrow the collections down to their interests. We use the [Getty Art and Architecture Thesaurus](http://www.getty.edu/research/tools/vocabularies/aat/) for our subjects. Multiple entries are encouraged when possible, and should be separated with a semi-colon. Some collections have a controlled vocabulary related to the subject material, so be sure to check with a supervisor before you start assigning subjects.
+    - Example values: `children; parades; automobiles`; `cows (mammals); farming (function)`
 
 - ##### **relation:** 
     - This field indicates if there are any relationships between resources. An example of this would be if a collection contains material from another collection, or is similar to material in another collection. This is not an often used field, and will usually be populated by the Digital Projects Manager. Sometimes it gets cross-referenced as Spatial Coverage, but you will be notified before-hand.
