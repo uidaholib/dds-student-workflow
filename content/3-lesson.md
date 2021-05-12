@@ -33,9 +33,10 @@ Not all of the fields listed below will appear on every metadata sheet. Some met
 
 - ##### **date is approximate:** 
     - This field lets anyone looking at the collection know that we are certain of our estimation, not that our estimation is the accurate date. Only fill out 'yes' if the Year, Year-Month, or an actual estimation is provided. If date is accurate, leave blank.
+    - Example value: `yes`
 
 - ##### **subject:** 
-    - words or phrases that describe or relate to the material. Think of subjects as how you the technician would search for the item. What subjects are described/depicted? These allow researchers and people interested in looking for one thing in particular to narrow the collections down to their interests. We use the [Getty Art and Architecture Thesaurus](http://www.getty.edu/research/tools/vocabularies/aat/) for our subjects. Multiple entries are encouraged when possible, and should be separated with a semi-colon. Some collections have a controlled vocabulary related to the subject material, so be sure to check with a supervisor before you start assigning subjects.
+    - Words or phrases that describe or relate to the material. Think of subjects as how you the technician would search for the item. What subjects are described/depicted? These allow researchers and people interested in looking for one thing in particular to narrow the collections down to their interests. We use the [Getty Art and Architecture Thesaurus](http://www.getty.edu/research/tools/vocabularies/aat/) for our subjects. Multiple entries are encouraged when possible, and should be separated with a semi-colon. Some collections have a controlled vocabulary related to the subject material, so be sure to check with a supervisor before you start assigning subjects.
     - Example values: `children; parades; automobiles`; `cows (mammals); farming (function)`
 
 - ##### **relation:** 
@@ -44,8 +45,13 @@ Not all of the fields listed below will appear on every metadata sheet. Some met
 - ##### **spatial coverage:** 
     - Spatial coverage identifies the geographic and/or geospatial location of the item being described. If it is a photograph, list the location that is depicted; if it is an article or other textual material, list the location described. Locations should always be listed: Country—State—County—City—Identifier.
 
+- #### **location:**
+    - The location field designates a geographic location(s) to which the item is tied. It should be in 'City, State' format, but can extend to 'City, County, State, Country' depending on the collection. Be sure to separate multiple location entries for a single record with a semicolon (;).
+    - Example values: `Boise, Idaho`; `Potlatch, Latah, Idaho`; `Jakarta, Indonesia`
+
 - ##### **latitude/longitude:**
-    - Geospatial coordinates on the surface of the Earth. To find these coordinates, use [Google Maps](www.maps.google.com) or [iTouchMap](itouchmap.com/latlong.html). Copy/paste the coordinates from either of these sites into the field in the metadata sheet. If Excel tries to reformat it to only 2 or 3 decimal places, right-click on the Letter at the top of the column and select format. In the window that pops up, select number, and increase decimal places to 6. Sometimes this field is split into separate entries; other times it will be a combined entry.
+    - Geographic coordinates specifying the north-south and east-west position of an item. To find these coordinates, use [Google Maps](www.maps.google.com) or [iTouchMap](itouchmap.com/latlong.html). Copy/paste the coordinates from either of these sites into the field in the metadata sheet. If Excel tries to reformat it to only 2 or 3 decimal places, right-click on the Letter at the top of the column and select format. In the window that pops up, select number, and increase decimal places to 6. Sometimes this field is split into separate entries; other times it will be a combined entry.
+    - Example value: `46.731634`; `-117.165625`
 
 - ##### **digital collection:** 
     - This field contains the name of the digital collection to which all of the material you are working with belongs. It lets patrons, researchers, and those viewing the item know where they can find more materials related to this item in case they found it by searching for a subject, or through another linked entry. This also provides a connection with the physical material and helps individuals to know where it is located. The collection name will usually be completed by the Digital Projects Manager.
@@ -55,21 +61,29 @@ Not all of the fields listed below will appear on every metadata sheet. Some met
 
 - ##### **source:**
     - The original source of the material being scanned. Sometimes this is a single collection here at UI, sometimes it’s pieces of another collection presented in a different collection. A lot of the time, this will also be the call number or collection number or the physical reference of the item, so people are able to find the item in person if they want to.
+    - Example value: `PG 5, University of Idaho Library Special Collections and Archives`
 
 - ##### **original file name:**
     - refers to either the collection of numbers and letters that designate its location within the library or the original file name that may have been edited to fit our standards here at the library. This field won’t always be on every metadata entry sheet.
 
 - ##### **identifier:**
-    - file name, minus the extension (.jpg, .tif, .pdf, etc.) Identifiers let both viewer and the Digital Projects Manager recognize and find the digital item in the archive quickly. Without the correct identifier, the viewer is left to either the title or description to request a copy of the item, which can get difficult with the number of digital records the Library has.
+    - The identifier field is used to preserve the unique identifier assigned to the object by the object’s (usually physical) source collection.
+    - Example value: `ARG-02-16-1993`
 
 - ##### **rights:**
-    - a copyright statement that consists of a free-text statement and a standardized rights statement. These statements indicate to viewers and researchers if permissions are required to use the material in publication, and how to attribute the item once used. A list of these can be found in your student folder in both Daily Scans on the Desktop and in your student folder in the W: drive. If you have any questions or aren’t certain of which statement applies to your project, ask the Digital Projects Manager. Example of free-text statement: No Copyright. Material made available by donor/contributing institution/source (as applicable). For more information, please contact University of Idaho Library Special Collections and Archives Department at libspec@uidaho.edu. Example of standardized rights statement: https://creativecommons.org/publicdomain/mark/1.0/
+    - a copyright statement that consists of a free-text statement and a standardized rights statement. These statements indicate to viewers and researchers if permissions are required to use the material in publication, and how to attribute the item once used. A list of these can be found in your student folder in both Daily Scans on the Desktop and in your student folder in the W: drive. If you have any questions or aren’t certain of which statement applies to your project, ask the Digital Projects Manager. 
+    - Example value: `Educational use includes non-commercial use of text and images in materials for teaching and research purposes. Digital reproduction rights granted by the University of Idaho Library. For other uses beyond free use, please contact the University of Idaho Library Special Collections and Archives Department.`
+
+- #### **rightsstatement**
+    - This field is a standardized rights statement, designated in the form of a URI. It should be presented as a [creativecommons.org](https://creativecommons.org/) URI or a [rightsstatements.org](https://rightsstatements.org/en/) URI. The Digital Projects Manager will either fill this in themselves or direct you on which to use. 
+    - Example value: `http://rightsstatements.org/vocab/NoC-US/1.0/`
 
 - ##### **format original:**
     - What was the item originally? A photograph? A newspaper clipping? This field specifies what the object was before digitization. Examples of original formats include: black-and-white photograph, color photograph, article, scrapbook, newspaper clipping, magazine, etc. There is no controlled vocabulary for this field.
 
 - ##### **type:**
     - This field indicates what the material contains. If it is an audio recording, input Sound; for video, input Image; MovingImage. Image refers to any form of picture or visual representation of an item, while Text can refer to any typed or written material. You may have multiple types per item, such as a newspaper clipping that contains an image and the related article.
+    - Example values: `Image;StillImage`; `Image;MovingImage`; `Text`; `Sound`
 
 - ##### **digital format:**
     - the digital format of the item. If the material is a PDF, the corresponding type is application/pdf; if the material is an image, the corresponding type is image/jpeg. Audio and video have similar entry styles. This field lets the viewer know what format the uploaded material is, and what they can expect when requesting the item for either publication or personal use. If you have questions, please refer to the Digital Projects Manager.
