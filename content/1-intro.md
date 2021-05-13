@@ -14,10 +14,14 @@ Make sure that hands are clean and dry when handling materials for scanning or a
 3. [Scanning images](#images)
 4. [Scanning documents](#documents)
 
+-----------
+
 {:#why}
 ## Why do we scan?
 
 Digitizing materials by scanning them with a flatbed, large format, or feed scanner is sometimes the safest and most effective means of preserving the information in an item and allowing others to access it. Scanning items at a high resolution allows the item to be used in different ways without needing to make any manipulations to the actual item. This is why we aim for a minimum 600 dpi image; it provides a scalable image that can be used for large or small reprints while maintaining the original details of the item.
+
+-----------
 
 {:#file}
 ## File Naming
@@ -30,8 +34,12 @@ Examples:
 - Manuscript Group 190, Box 4, Folder 2, letter 1, multiple pages = **mg190_b4_f2-001p001, mg190_b4_f2-001p002, etc.**
 - Photograph Group 3, box 1, photograph 3 = **pg3_b1-003**
 
+------------
+
 {:#images}
 ## Scanning Images
+
+Before beginning, go to your personal folder in the 'Scans' folder on the C: drive at your workstation. If a supervisor has not done so already, create a folder for the scanning project titled after the collection you'll be scanning (ex.: `MG 183`). Inside that folder, create another folder called 'tif'. This folder will be the destination for your initial scans.
 
 1. Turn on scanner at station. Open EpsonScan scanning software. 
 
@@ -52,6 +60,8 @@ Example image
 - In the Image Format section, the file type should be set to TIFF (*.tif).
 
 7. Press “OK” and the scan will begin. 
+
+-------------
 
 {:#documents}
 ## Scanning Documents
