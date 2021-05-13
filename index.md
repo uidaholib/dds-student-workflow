@@ -14,10 +14,8 @@ Welcome to the UI Data and Digital Services workflow repository, where you'll fi
 {% endcapture %}
 {% include card.html text=text header="Quick Links:" %}
 
-{% include toc.html %}
-
-Hosted by [University of Idaho Library](http://www.lib.uidaho.edu/), {{ site.pub_year }}.
+{% include calendar.html %}
 
 ------
 
-{% include template/credits.html %}
+
