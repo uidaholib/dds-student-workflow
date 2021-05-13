@@ -11,11 +11,3 @@ topics:
 We are the forefront of making these sources accessible and usable for the public and for researchers, locally and around the world. Our digitization efforts allow the information in materials to be accessed more broadly and used for more projects while still keeping originals intact and available for local, non-circulating, use. The images we create, the information we publish, all directly relates to the original source material; our descriptions, our dates, our titles, all relate to our goals of access and use.
 
 The materials we are working with in this lab are not designated to leave the library either because of their value (irreplaceable, original copy, monetary cost of replacement) or their condition (too fragile to circulate, too delicate to withstand continuous handling). Because of this, it is our job to accurately represent information in a way that upholds the integrity of the materials. This means that we must provide accurate and detailed descriptions of items (photographs, texts, journals, etc.) and do our best efforts to research subjects, dates, and locations in order to make access and use possible for the largest possible audience.
-
-
-{% capture text %}
-1. Have a [GitHub](https://github.com) account.
-2. Click the green "Use this template" button on the [workshop-template-b repository](https://github.com/evanwill/workshop-template-b) to make your own copy.
-3. Optional: have [Git](https://git-scm.com/), [Jekyll](https://jekyllrb.com/), and a nice [text editor](https://code.visualstudio.com/) installed.
-{% endcapture %}
-{% include card.html text=text header="Setup Overview" %}
