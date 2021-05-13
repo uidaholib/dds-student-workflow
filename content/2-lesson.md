@@ -6,44 +6,46 @@ topics:
 
 -----------
 
-The `workshop-template-b` [repository](https://github.com/evanwill/workshop-template-b) is a template project--to get started quickly, make a copy and fill in your own content and customizations.
-This [site](https://evanwill.github.io/workshop-template-b/) demonstrates the output on GitHub Pages, and the content pages serve as examples.
+### Images
 
-{% capture text %}
-1. Click the green "Use this template" button on the [workshop-template-b repository](https://github.com/evanwill/workshop-template-b) to make your own new copy of the code.
-2. Work on the GitHub web interface or clone to your local machine to edit files.
-3. Edit the `_config.yml` with your info.
-4. Edit the content pages in markdown.
-5. Add images to the "images" folder.
-5. Push to GitHub or commit on the web interface.
-6. In your repository's settings, activate GitHub Pages, using main branch.{% endcapture %}
-{% include card.html header="Overview" text=text %}
+1. If it hasn’t been done already, go to the folder for this scanning project (in your personal ‘Scans’ folder) and make two new folders: one named ‘access jpg’, and the other ‘lowres jpg’. 
+2. Open Photoshop. Go to File > Automate > Batch. 
 
-## Basic Configuration
+{% include figure.html img="automate_batch.jpg" alt="intro image here" caption="" width="50%" %}
 
-Edit the `_config.yml` to get your workshop website set up with the basics such as `title` and `author`.
-Check comments in the file for all the options!
+3. In the Batch window, select the action ‘tif>jpg’. If this action doesn’t exist on your workstation yet, ask a supervisor how to create it. 
+    - For the Source, make sure folder is selected. Click Choose and select the tif folder where your new scans are stored. 
+    - For the Destination, make sure folder is selected. Click Choose and select the access jpg folder. 
+    - Click OK.
 
-Once you have edited the `_config.yml`, you are ready to start editing your content pages.
+    {% include figure.html img="batch_tif_jpg_2.jpg" alt="intro image here" caption="" width="100%" %}
 
-## Advanced Options [optional]
+4. After Photoshop has completed the action, make sure all the images have scanned to the correct folder. 
+5. In the access jpg folder, open images in Photoshop and crop out the color bar. Balance images if needed. Save and close images when done with them. 
+6. Once finished with the whole access jpg folder, go back to Photoshop to File > Automate > Batch. 
+7. In the Batch window, select the action ‘access>jpg’. This may also be called ‘300dpijpg’. If this action doesn’t exist, ask a supervisor how to create it.
+    - For the Source, make sure folder is selected. Click Choose and select the access jpg folder that contains all the adjusted images you just created. 
+    - For the Destination, make sure folder is selected. Click Choose and select the lowres jpg folder. Make sure the file path reads the correct destination. 
+    - Click OK.
 
-### Using figure include
+{% include figure.html img="batch_lowres.jpg" alt="intro image here" caption="" width="100%" %}
 
-- put any images you want to use in the "images" folder.
-- in a markdown file where you want the image to appear, use the `figure.html` include on its own line, following the pattern: `{% include figure.html img="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}`
-- figures will be centered, and can optionally be given a caption and percentage width.
+8. After Photoshop has completed the action, make sure all the images have been saved to the correct folder.
 
-Additional includes are available in the "_includes" folder, check the comments for how to use them (or see the next lesson page for demos).
+--------------
 
-### Basic style customization
+### Documents
 
-- the `custom.scss` in the `assets/css` folder exposes variables that can customize the basic style of website.
-- Give a tiny splash of color on the header and footer borders by tweaking the `$top-border` 
-- `$link-color` colors links
+1. Select the file(s) to be converted from your lowres jpg folder. 
+2. Right-click selected items and select either ‘Convert to Adobe PDF’ or ‘Combine supported files in Acrobat’. This will open a window in Adobe Acrobat. 
+    - If converting one file into a PDF, choose 'Convert to Adobe PDF'
+    - If combining multiple files into one PDF (like a multi-page letter or document), choose 'Combine supported files in Acrobat'. A new window will pop up—click 'Combine'. 
 
-### Add Optional Analytics
+{% include figure.html img="convert_to_pdf.jpg" alt="intro image here" caption="" width="50%" %}
 
-- To use Google Analytics, add your analytics id to `_config.yml` in `google-analytics-id:` (if `google-analytics-id` is blank, the GA code will not added)
-- To use an alternative analytics, paste the code snippet provided by the platform into `_includes/template/analytics.html`
-- analytics code will only be added when using "production" environment. This happens automatically on GitHub Pages. To build manually you need to add "JEKYLL_ENV", like: `JEKYLL_ENV=production jekyll build`
+3. When Adobe Acrobat opens, find 'Tools' in the top right corner of the screen and select Recognize Text > In this file. 
+
+{% include figure.html img="recognize_text.jpg" alt="intro image here" caption="" width="100%" %}
+
+4. Wait until Adobe Acrobat completes the command (the document will end up back at the first page). 
+5. Save the document as a PDF following the naming rules established under File Naming. 
