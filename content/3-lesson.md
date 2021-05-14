@@ -87,61 +87,13 @@ Not all of the fields listed below will appear on every metadata sheet. Some met
 
 - ##### **digital format:**
     - the digital format of the item. If the material is a PDF, the corresponding type is application/pdf; if the material is an image, the corresponding type is image/jpeg. Audio and video have similar entry styles. This field lets the viewer know what format the uploaded material is, and what they can expect when requesting the item for either publication or personal use. If you have questions, please refer to the Digital Projects Manager.
+    - Example values: `image/jpeg`; `application/pdf`
 
 - ##### **language:**
     - a three-letter abbreviation or code for the language used in the material. Most items in our digital collections are in English, or have an English translation attached to them. For this field, always input eng unless otherwise instructed.
+    - Example value: `eng`
 
 - ##### **filename:**
     - identifier PLUS extension (.jpg, .tif, .pdf, .wav, etc.) Our digital content management system uses this field to correctly link the digitized item to the corresponding metadata entry. When possible, a pre-set formula will add the correct extension to each identifier entered in previous columns to save from any re-entry errors.
-
-
-## Components Includes
-
-`workshop-template-b` contains a series of [Liquid "includes"](https://jekyllrb.com/docs/includes/) to add basic [Bootstrap components](https://getbootstrap.com/docs/4.1/components/) to your Markdown content.
-Examples below demonstrate the includes.
-
---------
-
-#### Figures 
-
-`{% raw %}{% include figure.html img="uidaho-workshop.jpg" alt="workshop scene" caption="Library workshops!" width="75%" %}{% endraw %}`
-
-{% include figure.html img="uidaho-workshop.jpg" alt="workshop scene" caption="Library workshops!" width="75%" %}
-
-----------
-
-#### Alerts
-
-`{% raw %}{% include alert.html text="This is a Bootstrap [Alert](https://getbootstrap.com/docs/4.1/components/alerts/)" align="center" color="success" %}{% endraw %}`
-
-{% include alert.html text="This is a [Bootstrap Alert](https://getbootstrap.com/docs/4.1/components/alerts/)" align="center" color="success" %}
-
------------
-
-#### Link Buttons 
-
-`{% raw %}{% include button.html text="Bootstrap Docs" link="https://getbootstrap.com/docs/4.1/components/buttons/" color="info" %}{% endraw %}`
-
-{% include button.html text="Bootstrap Docs" link="https://getbootstrap.com/docs/4.1/components/buttons/" color="info" %}
-
----------
-
-#### Cards
-
-```{% raw %}
-{% capture text %}
-1. Can add more complex text using markdown.
-2. Use a Liquid capture to create the text.
-3. It magically becomes a [Bootstrap Card](https://getbootstrap.com/docs/4.1/components/card/).
-{% endcapture %}
-{% include card.html text=text header="Example Card" title="Title example" img="uidaho-workshop.jpg" %}{% endraw %}
-```
-
-{% capture text %}
-1. Can add more complex text using markdown.
-2. Use a Liquid capture to create the text.
-3. It magically becomes a [Bootstrap Card](https://getbootstrap.com/docs/4.1/components/card/).
-{% endcapture %}
-{% include card.html text=text header="Example Card" title="Title example" img="uidaho-workshop.jpg" %}
 
 ------------
