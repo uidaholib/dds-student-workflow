@@ -8,8 +8,8 @@ layout: default
 Welcome to the UI Data and Digital Services workflow repository, where you'll find information relating to digitization, metadata, and other tasks.
 
 {% capture text %}
-- Progress form
-- File naming
+- [Progress form](https://docs.google.com/forms/d/e/1FAIpQLSeR-_jg08sDiKoge86M8LWjrWkgU2fmKBYOObpwqWjOdJhnLg/viewform?embedded=true)
+- [File naming](https://uidaholib.github.io/dds-student-workflow/content/1-intro.html#file)
 - Optional: have [Git](https://git-scm.com/), [Jekyll](https://jekyllrb.com/), and a nice [text editor](https://code.visualstudio.com/) installed.
 {% endcapture %}
 {% include card.html text=text header="Quick Links:" %}
