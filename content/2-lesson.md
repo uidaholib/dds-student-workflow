@@ -5,7 +5,10 @@ topics:
 ---
 
 -----------
+1. [Images](#images)  
+2. [Documents](#documents) 
 
+{:#images}
 ### Images
 
 1. If it hasn’t been done already, go to the folder for this scanning project (in your personal ‘Scans’ folder) and make two new folders: one named ‘access jpg’, and the other ‘lowres jpg’. 
@@ -33,7 +36,7 @@ topics:
 8. After Photoshop has completed the action, make sure all the images have been saved to the correct folder.
 
 --------------
-
+{:#documents}
 ### Documents
 
 1. Select the file(s) to be converted from your lowres jpg folder. 
