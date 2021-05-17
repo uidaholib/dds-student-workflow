@@ -14,8 +14,6 @@ Welcome to the UI Data and Digital Services workflow repository, where you'll fi
 {% endcapture %}
 {% include card.html text=text header="Quick Links:" %}
 
-{% include calendar.html %}
-
 ------
 
 
