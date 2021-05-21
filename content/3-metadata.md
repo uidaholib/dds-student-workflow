@@ -47,7 +47,7 @@ Not all of the fields listed below will appear on every metadata sheet. Some met
 
 - #### **location:**
     - The location field designates a geographic location(s) to which the item is tied. It should be in 'City, State' format, but can extend to 'City, County, State, Country' depending on the collection. Be sure to separate multiple location entries for a single record with a semicolon (;).
-    - Example values: `Boise, Idaho`; `Potlatch, Latah, Idaho`; `Jakarta, Indonesia`
+    - Example values: `Boise, Idaho`; `Potlatch, Latah County, Idaho`; `Jakarta, Indonesia`
 
 - ##### **latitude/longitude:**
     - Geographic coordinates specifying the north-south and east-west position of an item. To find these coordinates, use [Google Maps](www.maps.google.com) or [iTouchMap](itouchmap.com/latlong.html). Copy/paste the coordinates from either of these sites into the field in the metadata sheet. If Excel tries to reformat it to only 2 or 3 decimal places, right-click on the Letter at the top of the column and select format. In the window that pops up, select number, and increase decimal places to 6. Sometimes this field is split into separate entries; other times it will be a combined entry.

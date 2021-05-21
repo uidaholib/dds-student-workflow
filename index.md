@@ -15,4 +15,18 @@ Welcome to the UI Data and Digital Services workflow repository, where you'll fi
 
 ------
 
+{% include calendar.html %}
+
+---
+
+<div class="row pt-4">
+    <div class="col-sm-6">
+        {% include uilibrary-twitter-feed.html %}
+    </div>
+    <div class="col-sm-6">
+        {% include vpod-twitter-feed.html %}
+    </div>
+</div> 
+
+
 
