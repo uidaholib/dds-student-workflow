@@ -42,9 +42,6 @@ Not all of the fields listed below will appear on every metadata sheet. Some met
 - ##### **relation:** 
     - This field indicates if there are any relationships between resources. An example of this would be if a collection contains material from another collection, or is similar to material in another collection. This is not an often used field, and will usually be populated by the Digital Projects Manager. Sometimes it gets cross-referenced as Spatial Coverage, but you will be notified before-hand.
 
-- ##### **spatial coverage:** 
-    - Spatial coverage identifies the geographic and/or geospatial location of the item being described. If it is a photograph, list the location that is depicted; if it is an article or other textual material, list the location described. Locations should always be listed: Country—State—County—City—Identifier.
-
 - #### **location:**
     - The location field designates a geographic location(s) to which the item is tied. It should be in 'City, State' format, but can extend to 'City, County, State, Country' depending on the collection. Be sure to separate multiple location entries for a single record with a semicolon (;).
     - Example values: `Boise, Idaho`; `Potlatch, Latah County, Idaho`; `Jakarta, Indonesia`
