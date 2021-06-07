@@ -9,7 +9,7 @@ Resources for community members and others wishing to conduct their own digitiza
 
 ### Equipment Recommendation
 
-The type of scanner you will need depends on the type of items you plan to scan. The CDIL recommends using a flatbed scanner to scan your items as any type of feed scanner has potential to damage delicate photos and documents. Look for a scanner with a bed size that will fit the largest of the items you’ll be scanning—something that’s at least 8 1 / 2 x 11” will typically work unless you have many oversize items. If you’ll be scanning slides and/or film, also opt for a scanner with a built-in transparency unit. For high-quality scans, you’ll also need something capable of scanning at at least 600 dpi. 
+The type of scanner you will need depends on the type of items you plan to scan. The CDIL recommends using a flatbed scanner to scan your items as any type of feed scanner has potential to damage delicate photos and documents. Look for a scanner with a bed size that will fit the largest of the items you’ll be scanning—something that’s at least 8 1/2 x 11” will typically work unless you have many oversize items. If you’ll be scanning slides and/or film, also opt for a scanner with a built-in transparency unit. For high-quality scans, you’ll also need something capable of scanning at at least 600 dpi. 
 
 ### Scanning Specifications
 
