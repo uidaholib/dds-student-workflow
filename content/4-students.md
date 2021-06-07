@@ -5,6 +5,8 @@ nav: Students
 
 ---------------------
 
+Resources for students conducting digitization work for the University of Idaho CDIL.
+
 ### Reference Links
 
 - [UI Digital Initiatives Home](https://www.lib.uidaho.edu/digital/)
