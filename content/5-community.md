@@ -23,6 +23,6 @@ In the CDIL we use very specific specifications to create archival quality scans
 
 After you have your items scanned, there are a few different things you can do to process and build your collection:
 
-- **Photoshop**: The CDIL uses Adobe Photoshop to process the digital files from our scanning projects. Visit the [Processing page](https://uidaholib.github.io/dds-student-workflow/content/2-processing.html) for a guide to these procedures. (link to existing processing page)
+- **Photoshop**: The CDIL uses Adobe Photoshop to process the digital files from our scanning projects. Visit the [Processing page]({{ '/content/2-processing.html' | relative_url }}) for a guide to these procedures.
 - **GIMP**: If you don’t have access to Photoshop, [GIMP](https://www.gimp.org/) is a free image editing software with similar functions.
-- **Metadata**: Once your images are processed, you might want to create some metadata to describe your images. Visit the [Metadata](https://uidaholib.github.io/dds-student-workflow/content/3-metadata.html) page to see some common metadata fields that we use for our collections. We recommend using [Google Sheets](https://www.google.com/sheets/about/) to create your metadata.
+- **Metadata**: Once your images are processed, you might want to create some metadata to describe your images. Visit the [Metadata]({{ '/content/3-metadata.html' | relative_url }}) page to see some common metadata fields that we use for our collections. We recommend using [Google Sheets](https://www.google.com/sheets/about/) to create your metadata.
