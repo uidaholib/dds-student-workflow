@@ -29,7 +29,8 @@ Digitizing materials by scanning them with a flatbed, large format, or feed scan
 
 A standardized file naming system helps us know exactly where an item came from or where it belongs just by looking at the file name. Scanned files should be named using the following standardized naming rules:
 
-**<center>collectionabbreviation_box#_envelope/folder#-item#subitem</center>**
+**collectionabbreviation_box#_envelope/folder#-item#subitem**
+{:.text-center}
 
 Examples:
 - Manuscript Group 190, Box 4, Folder 2, letter 1, multiple pages = **mg190_b4_f2-001p001, mg190_b4_f2-001p002, etc.**
@@ -78,94 +79,22 @@ Before beginning, go to your personal folder in the 'Scans' folder on the C: dri
 
 --------------
 
+{%- assign scanners = site.data.equipment -%}
+
 {:#equipment}
 ## Lab Equipment
 
 An overview of the scanning equipment used in the CDIL. 
 
-<div class="card mb-3">
-    <div class="card-header text-center">
-        <h5>Scanners:</h5>
-    </div>
-    <div class="card-body">
-        <div class="card-text">
+### Scanners:
 
-
-
-            <div class="row mb-3">
-                <div class="col-sm-4">
-                    <img src="{{ '/images/Epson-Expression-1640xl.jpg' | relative_url }}" class="img-fluid">
-                </div>
-                <div class="col-sm-8">
-                    <p>The <strong>EPSON Expression 1640XL</strong> is a 42-bit color, professional scanner that can achieve up to 1600 x 3200 dpi hardware resolution. The scanning bed is 12.2" x 17.2". The user manual can be found <a href="https://files.support.epson.com/pdf/exp16x/exp16xu1.pdf" target="_blank" method="noopener">here</a>.</p>
-                </div>
-            </div>
-            
-            <hr>
-            
-            <div class="row mb-3">
-                <div class="col-sm-4">
-                    <img src="{{ '/images/Epson-Expression-10000xl.jpg' | relative_url }}" class="img-fluid">
-                </div>
-                <div class="col-sm-8">
-                    <p>The <strong>EPSON Expression 10000XL</strong> is a 48-bit color, professional scanner that can achieve up to 2400 x 4800 dpi hardware resolution. The scanning bed is 12.2" x 17.2". The user manual can be found <a href="https://files.support.epson.com/pdf/ex10kg/ex10kgu1.pdf" target="_blank" method="noopener">here</a>.</p>
-                </div>
-            </div>
-
-            <hr>
-
-            <div class="row mb-3">
-                <div class="col-sm-4">
-                    <img src="{{ '/images/Epson-Expression-11000xl.jpg' | relative_url }}" class="img-fluid">
-                </div>
-                <div class="col-sm-8">
-                    <p>The <strong>EPSON Expression 11000XL</strong> is a 48-bit color, professional scanner that can achieve up to 2400 x 4800 dpi hardware resolution. The scanning bed is 12.2" x 17.2". The user manual can be found <a href="https://files.support.epson.com/pdf/ex11kg/ex11kgug.pdf" target="_blank" method="noopener">here</a>.</p>
-                </div>
-            </div>
-    
-            <hr>
-
-            <div class="row mb-3">
-                <div class="col-sm-4">
-                    <img src="{{ '/images/Epson-Expression-12000xl.jpg' | relative_url }}" class="img-fluid">
-                </div>
-                <div class="col-sm-8">
-                    <p>The <strong>EPSON Expression 12000XL</strong> is a 48-bit color scanner that can achieve up to 2400 x 4800 dpi hardware resolution. The scanning bed is 12.2" x 17.2". The user manual can be found <a href="https://files.support.epson.com/docid/cpd5/cpd53120.pdf" target="_blank" method="noopener">here</a>.</p>
-                </div>
-            </div>
-
-            <hr>
-
-            <div class="row mb-3">
-                <div class="col-sm-4">
-                    <img src="{{ '/images/Fujitsu-Fi-6770_.jpg' | relative_url }}" class="img-fluid">
-                </div>
-                <div class="col-sm-8">
-                    <p>The <strong>Fujitsu Fi-6770</strong> is a 24-bit color document feed scanner that can achieve up to 1200 dpi. We use this scanner for larger documents that have many pages, as this machine is able to feed and scan large stacks of paper automatically. The user manual can be found <a href="https://www.fujitsu.com/global/Images/fi-6770.pdf" target="_blank" method="noopener">here</a>.</p>
-                </div>
-            </div>
-    
-            <hr>
-
-            <div class="row mb-3">
-                <div class="col-sm-4">
-                    <img src="{{ '/images/Plustek-OpticBook-3800.jpg' | relative_url }}" class="img-fluid">
-                </div>
-                <div class="col-sm-8">
-                    <p>The <strong>Plustek OpticBook 3800</strong> is a book edge scanner designed to eliminate spine shadows when scanning books. This is a great scanner for books that we aren't allowed to cut the spine away from, as it allows us to get closer into the center of the book.</p>
-                </div>
-            </div>
-
-            <div class="row mb-3">
-                <div class="col-sm-4">
-                    <img src="{{ '/images/Contex-Plus-5450HD.jpg' | relative_url }}" class="img-fluid">
-                </div>
-                <div class="col-sm-8">
-                    <p>The <strong>Contex Plus HD5450</strong> is a large format feed scanner designed for larger objects (like maps, portraits, blueprints, etc.). Depending on how fragile the materials being scanned are, we'll sometimes use protective mylar sheets with this machine (and it's often a two-person ordeal). More information on this model can be found <a href="https://support.contex.com/Default.aspx?ID=11085&pagename=Support%20for%20HD%205450" target="_blank" method="noopener">here</a>.</p>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-</div>
+<table class="table">
+<tbody>
+{% for s in scanners %}
+<tr>
+<td class="col-4"><img src="{{ s.image | prepend: '/images/' | relative_url }}" alt="image of {{ s.image }}" class="img-fluid"/></td>
+<td class="col-8">{{ s.text }}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
