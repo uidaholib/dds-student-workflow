@@ -7,7 +7,7 @@ layout: default
 
 Welcome to the U of I Data and Digital Services workflow repository, where you'll find information relating to digitization, metadata, and other tasks.
 
-If you are a **student** working on a Digital Initiatives or CDIL project, the first four tabs will be most relevant to your work.
+If you are a **student** working on a Digital Initiatives or CDIL project, the first five tabs (Overview -> Students) will be most relevant to your work.
 
 If you are a **community member** interested in our workflow, please refer to the last "Community" tab for further information about digitization.
 
