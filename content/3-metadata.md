@@ -8,16 +8,15 @@ topics:
 
 ## How do we describe things?
 
-In the CDIL, we use the simple [Dublin Core Metadata Practices](https://en.wikipedia.org/wiki/Dublin_Core), which provide us a standard for how we format our descriptions and make the information readable for a large audience. This section will cover the details of the different formats and guidelines for all common sections of a metadata sheet that technicians will encounter. 
+We use the simple [Dublin Core Metadata Practices](https://en.wikipedia.org/wiki/Dublin_Core), which provide us a standard for how we format our metadata and make the information readable for a large audience. This section will cover the details of the different formats and guidelines for all common sections of a metadata spreadsheet that technicians will encounter. 
 
-Not all of the fields listed below will appear on every metadata sheet. Some metadata sheets will have extra fields depending on the subject material. As a general rule, though, these are the most common fields you will encounter when entering metadata. It may seem like a lot of information, but each field serves a purpose for both preservation and access.
+Not all of the fields listed below will appear on every metadata spreadsheet. Some metadata spreadsheets will have extra fields depending on the subject material. As a general rule, though, these are the most common fields you will encounter when entering metadata. It may seem like a lot of information, but each field serves a purpose for both preservation and access.
 
 If you have questions, please refer to CDIL staff.
 
 ---
 
 ### Metadata Fields for Students to Fill In
-
 
 ##### filename
 - *required* 
@@ -28,16 +27,32 @@ If you have questions, please refer to CDIL staff.
 
 ##### title 
 - *required*
-- The name of an item. This is either the given title of an item or a short, descriptive set of words to identify the item. 
-- For photographs in a series, this can be either “Founder’s Day parade [01]” (no quotation marks in entry) or a generalized brief description of the photograph. 
+- The name of an item. This is either the given title of an item or a short, descriptive set of words to identify the item.  
 - All words after the first word in the title should be lower case unless referring to a proper noun such as a name or place (Dylan Fuller, Empire State Building, Idaho, etc.)
+- For questions on how to title photographs in a series, please refer to CDIL staff.
 - Example values: `Hecla Mine`; `Students playing baseball`
+
+##### description
+- *required* 
+- A detailed, 1-3 sentence accounting of the item, communicating what it is and its contents.
+- This includes small details such as "mountains can be seen in the background", and should include names when known. 
+- All descriptions should be in complete sentences, with a single space between sentences. Descriptions should be no more than 1-3 sentences.
+- Example value: `Students on lawn in front of old Gault Hall, which was torn down in 2003 to make room for the current Living Learning Center.`
+
+##### subject
+- *required* 
+- Words or phrases that describe or relate to the material. Think of how you would search for the item. What key words would you use to find what is described/depicted in the item? 
+- Subjects allow researchers and people interested in searching for one thing in particular to narrow the collections down to their interests. 
+- Use the [Getty Art and Architecture Thesaurus](http://www.getty.edu/research/tools/vocabularies/aat/) to locate subject terms. 
+- Multiple entries (2-4) are encouraged when possible, and should be separated with a semi-colon. Some collections have a controlled vocabulary related to the subject material, so be sure to check with a supervisor before you start assigning subjects.
+- Example values: `children; parades; automobiles`; `cows (mammals); farming (function)`
 
 ##### creator
 - The individual or entity that created the item. 
 - For articles or publications, this is the author. 
 - For photographs, either the photographer or the studio. 
-- Last name, first name “nickname” middle name maiden name.
+- Use format: Last name, First name
+    - If additional names are included, use this order: Last name, First name "Nickname" Middle name Maiden name.
 - Example values: `Riegger, Hal`; `Barnard Studio (Wallace, Idaho)`
 
 ##### date  
@@ -53,24 +68,9 @@ If you have questions, please refer to CDIL staff.
 - Only fill out 'yes' if the Year, Year-Month, or an actual estimation is provided. If date is accurate, leave blank.
 - Example value: `yes`
 
-##### description
-- *required* 
-- A detailed accounting of the item communicating what it is and its contents.
-- This includes small details such as “mountains can be seen in the background”, and should include names when known. 
-- All descriptions should be in complete sentences and single spaced between sentences. Descriptions should be no more than 1-3 sentences.
-- Example value: `Students on lawn in front of old Gault Hall, which was torn down in 2003 to make room for the current Living Learning Center.`
-
-##### subject
-- *required* 
-- Words or phrases that describe or relate to the material. Think of subjects as how you the technician would search for the item. What subjects are described/depicted? 
-- These allow researchers and people interested in looking for one thing in particular to narrow the collections down to their interests. 
-- We use the [Getty Art and Architecture Thesaurus](http://www.getty.edu/research/tools/vocabularies/aat/) for our subjects. 
-- Multiple entries are encouraged when possible, and should be separated with a semi-colon. Some collections have a controlled vocabulary related to the subject material, so be sure to check with a supervisor before you start assigning subjects.
-- Example values: `children; parades; automobiles`; `cows (mammals); farming (function)`
-
 ##### location
 - The geographic location(s) / place names to which the item is tied. 
-- 'City, State' format, but can extend to 'City, County, State, Country' depending on the collection. 
+- 'City, State' format, but can sometimes extend to 'City, County, State, Country' depending on the collection (check with a supervisor to be sure). 
 - Separate multiple location entries for a single record with a semicolon (;).
 - Example values: `Boise, Idaho`; `Potlatch, Latah County, Idaho`; `Jakarta, Indonesia`
 
@@ -84,15 +84,15 @@ If you have questions, please refer to CDIL staff.
 - Example value: `46.731634`
 
 ##### longitude
-- A geographic coordinate specifying the east-west position of an item.
+- A geographic coordinate specifying the east-west position of an item. Follow "latitude" instructions above to locate longitude data.
 - Example value: `-117.165625`
 
 ##### source
 - The physical source of the material being scanned. 
-- Sometimes this is a single physical collection here at U of I and sometimes this is from several collections. 
-- This will also be the call number, collection number or the physical reference of the item, so people are able to find the item in person if they want to.
+- Sometimes this is a single physical collection here at U of I and sometimes this is from several collections (check with your supervisor to identify the source of the items you are describing). 
+- This will sometimes include the physical collection's collection number or call number,so people are able to find the item in person if they want to.
 - Generally follows the pattern "collection name, organization name".
-- Example value: `PG 5, University of Idaho Library Special Collections and Archives`
+- Example value: `Idaho Cities and Towns Photographs, PG 5, University of Idaho Library Special Collections and Archives`
 
 ##### identifier
 - The unique identifier assigned to the object by the object’s (usually physical) source collection in Special Collections.
@@ -100,25 +100,25 @@ If you have questions, please refer to CDIL staff.
 - Example value: `ARG-02-16-1993`
 
 ##### type
-- This field indicates what the material contains. 
-- Choose from: 
-    - `Text` Any typed or written material.
-    - `Image;StillImage` Photographs, negatives, etc.
-    - `Image;MovingImage` Video.
-    - `Sound` Audio recording.
-- You may have multiple types per item, such as a newspaper clipping that contains an image and the related article. Separate multiple types with a semicolon.
+- This field indicates what type of content the material contains. 
+- Choose from the following options: 
+    - `Text`: Any typed or written material.
+    - `Image;StillImage`: Photographs, negatives, etc.
+    - `Image;MovingImage`: Video.
+    - `Sound`: Audio recording.
+- You may only choose one value for the type field. If you encounter an item with multiple types of content, choose the option that describes the item best.
 - Example values: `Image;StillImage`; `Image;MovingImage`; `Text`; `Sound`
 
 ##### format original
-- This field specifies what the object was before digitization. 
-- There is no controlled vocabulary for this field.
+- This field specifies the format of the physical object that was digitized. 
+- There is no controlled vocabulary for this field. Choose a word or phrase that best describes the format, and try to be consistent across items in a single collection.
 - Example values: `black-and-white photograph, color photograph, article, scrapbook, newspaper clipping, magazine`  
 
 ##### format
 - *required* 
 - The digital format of the item. 
-- This field lets the viewer know what format the uploaded material is, and what they can expect when requesting the item for either publication or personal use. 
-- Choose from: 
+- This field lets the viewer know what format the uploaded material is.
+- Choose from one of the following options: 
     - Image: `image/jpeg`
     - Document: `application/pdf`
     - Audio: `audio/mp3`
@@ -143,9 +143,10 @@ If you have questions, please refer to CDIL staff.
 - Citing the contributing Institution notes attribution as well as protects U of I from potential copyright issues. 
 
 ##### language
-- A three-letter abbreviation or code for the language used in the material. 
-- Most items in our digital collections are in English, or have an English translation attached to them. 
-- Example value: `eng`
+- A three-letter code for the language used in the material. 
+- Use the [ISO 639-2 Codes for the Representation of Names and Languages](https://www.loc.gov/standards/iso639-2/php/code_list.php) to identify the correct language code.
+- Multiple language codes should be separated by a semi-colon.
+- Example value: `eng`, `fre`, `spa`
 
 ##### rights
 - A copyright statement that consists of a free-text statement and a standardized rights statement. 
@@ -158,6 +159,6 @@ If you have questions, please refer to CDIL staff.
 - Example value: `http://rightsstatements.org/vocab/NoC-US/1.0/`
 
 ##### original file name
-- Refers to either the collection of numbers and letters that designate its location within the library or the original file name that may have been edited to fit our standards here at the library. 
+- Refers to either the collection of numbers and letters that designate its location within the Library or the original file name that may have been edited to fit our standards here at the Library. 
 
 ------------

@@ -13,7 +13,7 @@ Make sure that hands are clean and dry when handling materials for scanning or a
 2. [File naming](#file)
 3. [Scanning images](#images)
 4. [Scanning documents](#documents)
-5. [Lab equipment](#equipment)
+5. [Lab equipment](#scanners)
 
 -----------
 
@@ -81,7 +81,7 @@ Before beginning, go to your personal folder in the 'Scans' folder on the C: dri
 
 {%- assign scanners = site.data.equipment -%}
 
-{:#equipment}
+{:#scanners}
 ## Lab Equipment
 
 An overview of the scanning equipment used in the CDIL. 
