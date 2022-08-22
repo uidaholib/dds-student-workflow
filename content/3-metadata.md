@@ -12,7 +12,7 @@ In the CDIL, we use the simple [Dublin Core Metadata Practices](https://en.wikip
 
 Not all of the fields listed below will appear on every metadata sheet. Some metadata sheets will have extra fields depending on the subject material. As a general rule, though, these are the most common fields you will encounter when entering metadata. It may seem like a lot of information, but each field serves a purpose for both preservation and access.
 
-If you have questions, please refer to the Digital Projects Manager or .
+If you have questions, please refer to CDIL staff.
 
 ---
 
@@ -35,14 +35,15 @@ If you have questions, please refer to the Digital Projects Manager or .
 
 ##### creator
 - The individual or entity that created the item. 
-- For articles or publications, this is the author. For photographs, either the photographer or the studio. 
+- For articles or publications, this is the author. 
+- For photographs, either the photographer or the studio. 
 - Last name, first name “nickname” middle name maiden name.
 - Example values: `Riegger, Hal`; `Barnard Studio (Wallace, Idaho)`
 
 ##### date  
 - Refers to the date the item was created/published. 
 - If you know the exact date for an item, fill it in using the yyyy-mm-dd format.
-- If you only know the year and month, simply leave off the day: 1955-12. Likewise, if you only know the year, just enter the year (1955). 
+- If you only know the year and month, simply leave off the day: 1955-12. Likewise, if you only know the year, just enter the year: 1955. 
 - If there is no year included with the item, you can estimate the date to the nearest decade if you know enough information about the content of the image or item. 
     - For example, if you think a photo was probably taken in the 1950s based on a car or clothing pictured, you can put '1950' or '1955' in the data cell. Be sure to fill in 'yes' for the 'date is approximate' cell in this situation.
 - Example values: `1955-12-08`; `1955-12`; `1955`
@@ -88,7 +89,8 @@ If you have questions, please refer to the Digital Projects Manager or .
 
 ##### source
 - The physical source of the material being scanned. 
-- Sometimes this is a single physical collection here at U of I, sometimes it is pieces of another collection presented in a different collection. This will also be the call number, collection number or the physical reference of the item, so people are able to find the item in person if they want to.
+- Sometimes this is a single physical collection here at U of I and sometimes this is from several collections. 
+- This will also be the call number, collection number or the physical reference of the item, so people are able to find the item in person if they want to.
 - Generally follows the pattern "collection name, organization name".
 - Example value: `PG 5, University of Idaho Library Special Collections and Archives`
 
@@ -124,22 +126,21 @@ If you have questions, please refer to the Digital Projects Manager or .
 
 ---
 
-#### Metadata Fields for Staff to Fill In
+### Metadata Fields for Staff to Fill In
 
 ##### relation
 - This field indicates if there are any relationships between resources. 
 - An example of this would be if a collection contains material from another collection, or is similar to material in another collection. 
-- This is not an often used field, and will usually be populated by the Digital Projects Manager. Sometimes it gets cross-referenced as Spatial Coverage, but you will be notified before-hand.
+- This is not an often used field, and will usually be populated by the Digital Projects Manager. 
 
 ##### digital collection
 - This field contains the name of the digital collection to which all of the material you are working with belongs. 
-- It lets patrons, researchers, and those viewing the item know where they can find more materials related to this item in case they found it by searching for a subject, or through another linked entry. 
-- This also provides a connection with the physical material and helps individuals to know where it is located. The collection name will usually be completed by the Digital Projects Manager.
+- It lets those viewing the item know where they can find more materials related to this item in case they found it by searching for a subject, or through another linked entry. 
+- This also provides a connection with the physical material and helps individuals to know where it is located. 
 
 ##### contributing institution
 - Most of our digital collections are owned by the University of Idaho Library, but some of them originate from other institutions or individuals. Some digital collections are combinations of U of I Library materials and materials from other institutions. 
-- Citing the contributing Institution notes attribution as well as protects UI from potential copyright issues. 
-- This field will always be filled in by the Digital Projects Manager unless it is specified in the collection on an individual item basis.
+- Citing the contributing Institution notes attribution as well as protects U of I from potential copyright issues. 
 
 ##### language
 - A three-letter abbreviation or code for the language used in the material. 
@@ -149,16 +150,14 @@ If you have questions, please refer to the Digital Projects Manager or .
 ##### rights
 - A copyright statement that consists of a free-text statement and a standardized rights statement. 
 - These statements indicate to viewers and researchers if permissions are required to use the material in publication, and how to attribute the item once used. 
-- A list of these can be found in your student folder in both Daily Scans on the Desktop and in your student folder in the W: drive. If you have any questions or aren’t certain of which statement applies to your project, ask the Digital Projects Manager. 
 - Example value: `Educational use includes non-commercial use of text and images in materials for teaching and research purposes. Digital reproduction rights granted by the University of Idaho Library. For other uses beyond free use, please contact the University of Idaho Library Special Collections and Archives Department.`
 
 ##### rightsstatement
 - This field is a standardized rights statement, designated in the form of a URI. 
-- It should be presented as a [creativecommons.org](https://creativecommons.org/) URI or a [rightsstatements.org](https://rightsstatements.org/en/) URI. The Digital Projects Manager will either fill this in themselves or direct you on which to use. 
+- It should be presented as a [creativecommons.org](https://creativecommons.org/) URI or a [rightsstatements.org](https://rightsstatements.org/en/) URI. 
 - Example value: `http://rightsstatements.org/vocab/NoC-US/1.0/`
 
 ##### original file name
 - Refers to either the collection of numbers and letters that designate its location within the library or the original file name that may have been edited to fit our standards here at the library. 
-- This field won’t always be on every metadata entry sheet.
 
 ------------
