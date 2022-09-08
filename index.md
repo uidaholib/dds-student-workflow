@@ -18,9 +18,8 @@ If you are a **community member** interested in our workflow, please refer to th
 <div class="col-md-12">
 {% include button.html text="Scanning Images" link="https://uidaholib.github.io/dds-student-workflow/content/1-scanning.html#images" color="success" %}
 
-{% include button.html text="Progress form" link="https://docs.google.com/forms/d/e/1FAIpQLSeR-_jg08sDiKoge86M8LWjrWkgU2fmKBYOObpwqWjOdJhnLg/viewform?embedded=true" color="success" %}
-
 {% include button.html text="File naming" link="https://uidaholib.github.io/dds-student-workflow/content/1-scanning.html#file" color="success" %}
+
 </div>
 </div>
 
