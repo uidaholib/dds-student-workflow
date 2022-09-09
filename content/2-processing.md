@@ -136,8 +136,8 @@ topics:
 
 - In Photoshop, make sure you have access to the Actions Window by selecting it under the Window menu (Window>Actions) or with the shortcut Alt+F9.
 
-{% include figure.html img="PhotoshopWindowMenu.JPG" alt="Photoshop Window Menu" caption="" width="50%" %}
-{% include figure.html img="PhotoshopActionsWindow.JPG" alt="Photoshop Actions Window" caption="" width="50%" %}
+{% include figure.html img="PhotoshopWindowMenu.JPG" alt="Photoshop Window Menu" caption="" width="25%" %}
+{% include figure.html img="PhotoshopActionsWindow.JPG" alt="Photoshop Actions Window" caption="" width="25%" %}
 
 - Open one of the Tiff files to be processed in Photoshop.
 - In the Action window, click on the Create new action button. Name the action “Tiff>Jpg”
