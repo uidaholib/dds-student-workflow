@@ -9,16 +9,10 @@ nav: Scanning
 Make sure that hands are clean and dry when handling materials for scanning or any type of digitization work; all materials should be handled with care, and cotton gloves worn when instructed by a supervisor. These items cannot be replaced or easily repaired if destroyed or damaged.{% endcapture %}
 {% include alert.html text=text color="danger" %}
 
-{% include button.html text="1. Why?" link="#why" color="success" %}
-{% include button.html text="2. File naming" link="#file" color="success" %}
-{% include button.html text="3. Scanning images" link="#images" color="success" %}
-{% include button.html text="4. Scanning documents" link="#documents" color="success" %}
-{% include button.html text="5. Lab equipment" link="#scanners" color="success" %}
-
-2. [File naming](#file)
-3. [Scanning images](#images)
-4. [Scanning documents](#documents)
-5. [Lab equipment](#scanners)
+1. [File naming](#file)
+2. [Scanning images](#images)
+3. [Scanning documents](#documents)
+4. [Lab equipment](#scanners)
 
 -----------
 
