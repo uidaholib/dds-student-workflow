@@ -51,14 +51,13 @@ Examples:
 
 - Place item to be scanned along the left side of the scanning bed (the glass plate), leaving a slight border between item and edge. 
 
-- Position the Color Separation Guide so that the “saturated” bar is beside the item being scanned. 
-    - Be sure to leave a ⅛-inch gap between the guide and the item.
+- Position the Color Separation Guide so that the “saturated” bar is beside the item being scanned. ***Be sure to leave a ⅛-inch gap between the guide and the item.***
 
 - Close the scanner lid and press “Preview” in EpsonScan. 
 
 - Once the preview scan is finished, use the cursor to draw the selection window around the item and as much of the Color Separation Guide as is needed to color balance the item. There should not be a lot of space between the item and the edges of the selection window; see below:
 
-    {% include figure.html img="screenshot-2.jpg" alt="intro image here" caption="" width="100%" %}
+    {% include figure.html img="screenshot-2.jpg" alt="intro image here" caption="" width="80%" %}
     
 - Images should be scanned at **600 dpi** and should be at least **6,000 pixels** on the long edge. This measurement is located at the bottom left of the preview panel. The color filter should be set to **"none"**:
 
